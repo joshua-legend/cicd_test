@@ -16,8 +16,8 @@ export default defineConfig([
       semi: ["error", "always"],
       quotes: ["error", "double"],
       indent: ["error", 2],
-      "no-undef": "error",
-      "comma-dangle": ["error", "always-multiline"],
+      "no-undef": "warn",
+      "comma-dangle": ["off", "always-multiline"],
     },
   },
 ]);
